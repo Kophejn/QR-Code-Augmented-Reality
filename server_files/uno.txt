@@ -1,0 +1,79 @@
+/qr_size: 14.4
+
+# Indentifikator desky
+/name: Arduino Uno R3
+/rectangle: (0,0,0) 14.4 14.4
+/specs: Schematics in link
+/link: https://content.arduino.cc/assets/UNO-TH_Rev3e_sch.pdf
+
+# Microcontroller
+/name: Atmel ATmega328P
+/rectangle: (0.6,-18,0) 36.2 9.0
+/specs: 8-bit AVR Microcontroller
+/link: http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7810-Automotive-Microcontrollers-ATmega328P_Datasheet.pdf
+
+# Power input
+/name: Power in
+/rectangle: (-41,-26.1,0) 14.4 9.2
+/specs: 7-12V DC
+2.1 x 5.5mm 
+/link: 
+
+# Voltage regulator 5V
+/name: Voltage regulator
+/rectangle: (-38.4,-17,0) 7.7 6.8
+/specs: 5V regulator
+/link: https://www.mouser.com/datasheet/2/308/NCP1117-D-81326.pdf
+
+# Voltage regulator 3.3V
+/name: Voltage regulator
+/rectangle: (-24,-19.2,0) 4 2.8 
+/specs: 3.3V regulator
+/link: https://www.ti.com/lit/ds/symlink/lp2985a.pdf?ts=1591352435095
+
+# 16MHz crystal
+/name: 16MHz crystal
+/rectangle: (-27,-8.3,0) 11 4.4
+/specs:
+/link: 
+
+# USB-B port
+/name: USB-B port
+/rectangle: (-44.4,4.9,0) 16.8 12.6
+/specs:
+/link:
+
+# Reset button
+/name: Reset button
+/rectangle: (-39.4,15.3,0) 9.5 6.4
+/specs:
+/link:
+
+# USB controller
+/name: Atmel ATmega16U2
+/rectangle: (-26,0.6,0) 5.3 5.3
+/specs:
+/link: http://ww1.microchip.com/downloads/en/DeviceDoc/doc7799.pdf
+
+# Transistor SOT-23
+/name: Transistor SOT-23
+/rectangle: (-37.8,-7.8,0) 2.5 3.4
+/specs: FDN340P P-channel MOSFET transistor
+/link:
+
+# SMB diode
+/name: Transistor SOT-23
+/rectangle: (-24.5,-31.8,0) 5.5 2.8
+/specs: M7 diode
+/link: https://www.kingtronics.com/pdf/M7-diode.pdf
+
+# Resistor array
+/name: Resistor array
+/rectangle: (12.6,-0.6,0) 1.8 3.2
+/specs: 
+/link:
+
+/end
+
+Other sources:
+https://www.allaboutcircuits.com/technical-articles/understanding-arduino-uno-hardware-design/

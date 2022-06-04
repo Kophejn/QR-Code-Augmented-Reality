@@ -1,0 +1,49 @@
+# ------------------------------------------COMMENTS--------------------------------------------------------------
+
+# This is line comment. You can also enter empty lines as it doesn't break readability.
+# Note that all coordinates set here are relative to qr_size information.
+# Coordinate space origin is in center of the QR Code, with Z axis pointing out of it (to viewer).
+
+# ------------------------------------OPTIONAL-SIZE-COMMAND-------------------------------------------------------
+
+# Optional. Sets QR Code size, if size is also encoded in QR Code it will be replaced by this value. Can be float.
+/qr_size: 10
+
+# ------------------------------------------COMMANDS--------------------------------------------------------------
+
+# Next commands are mandatory, for each part 4 commands must be provided!
+# You can chose between "/contour:" and "/rectangle:".
+
+# Sets name of part.
+/name: Part name
+
+# Sets rectangle part boundary, format is: "(x,y,z) width height".
+# Where (x,y,z) is rectangle center each number can be float.
+/rectangle: (0,0,0) 10 10
+
+# Or you can specify whole contour by points in 3D space in format (x,y,z).
+# /contour: (5,5,0) (5,-5,0) (-5,-5,0) (-5,5,0)
+
+# Write specs of the part, could be empty but also multiline.
+/specs: Some specs.
+        Spaces are ignored, so you can even indent.
+
+# Provide link to datasheet or relative web. For link to be opened it must start with "http://" or "https://".
+/link: https://www.qrcode.com/en/
+
+# -----------------------------------EXAMPLE-WITHOUT-COMMENTS-----------------------------------------------------
+
+/name: Part 1
+/rectangle: (-17.2,-6,0) 7.8 3.1
+/specs: Specifications
+/link: https://en.wikipedia.org/wiki/Datasheet
+
+# ------------------------------------OPTIONAL-END-COMMAND--------------------------------------------------------
+
+# Optional command for app to end reading instructions and close this txt file.
+/end
+
+# -----------------------------------------FOOTNOTES--------------------------------------------------------------
+
+# QR Code is registered trademark of DENSO WAVE INCORPORATED.
+# Created by DB 2020.
